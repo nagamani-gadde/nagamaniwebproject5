@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/boorap.min.js"></script>
+</head>
+<style>
+    body{
+        color:lime;
+        font-size: 20px;
+    }
+    button{
+        color:#e835d5;
+    }
+</style>
+<body>
+    <h1><marquee>List of Cultural activities and College Details</marquee></h1>
+    <nav><br>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="ContactUs.html">ContactUs</a></li>
+          <li><a href="Registerform.html">Registerform</a></li>
+          <li><a href="LoginPage.html">LoginPage</a></li>
+        </ul>
+    </nav><br>
+      <div class="jumbotron text-center">
+        <h1>About College Details</h1>
+        <p>Education</p>
+      </div><br>
+      <div class="container">
+        <h2>Alert Message</h2>
+        <div class="alert alert-faculty">
+            <strong>Faculties!</strong>  This Message is Faculties 
+       </div>      
+       <div class="alert alert-students">
+        <strong>Students!</strong>  This alert message is Students
+        </div>   
+        <div class="alert alert-courses">
+            <strong>Courses!</strong>  This message is Courses 
+         </div>   
+         <div class="alert alert-canteen">
+            <strong>Canteen!</strong>  This message is Canteen  
+         </div>  
+    </div>
+    <center>
+      <h2>My College</h2>
+      <h2>Faculties</h2>
+      <p id="mani">....Welcome...</p>
+      <p id="mani1">........</p>
+     <script>
+        document.write("Hello Faculties");
+        document.getElementById("mani").innerHTML="Suchitra,Aswini,HimaBindhu"
+     </script>
+        <script>
+            function myfunction1(){
+            document.write("Hello Departments are CSE,CSE-AI&ML,CSE-DS,ECE,EEE,Civil,Mechanical and other departments");
+            }
+        </script>
+     <body>
+        <h2>Departmets are</h2>
+        <button type="button" onclick="myfunction1()">ClickMe</button>
+    </body>
+    <script>
+        function myfunction1(){
+        document.write("Books are MachineLearning,DeepLerning,EDC,ECA,DAA,CN,CDand other books");
+        }
+    </script>
+    <body>
+      <h2>Books are</h2>
+      <button type="button" onclick="myfunction1()">ClickMe</button>
+    </body><br><br>
+        <div class="col-sm-4">
+            <h3>Cultural Activities</h3>
+            <p>Dancing,Singing,Playing and other activities</p>
+        </div><br>
+        <img src="vignana2.jpeg" class="img-bordering" width="236" height="300">
+        <img src="event.jpeg" class="img-bordering" width="236" height="300">
+        <img src="play.jpeg" class="img-bordering" width="236" height="300"><br><br>
+    </div>
+  </center>
+        <footer>
+            <p><marquee>&copy;2024 Nagamani Web Project.All rights reserved@Nagamani.</marquee></p>
+        </footer>
+    </body>
+</html>
+
